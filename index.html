@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aryal Dairy Juice & Coffee House | Fresh from Our Farm</title>
+<meta name="description" content="Fresh milk, curd, paneer, lassi, ice cream, sugarcane juice and coffee in Ghorahi, Dang.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Lora:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#home" class="logo">
+  <img src="images/logo.png"
+       alt="Aryal Dairy Logo"
+       class="logo-img">
+
+  <span class="logo-t">
+    ARYAL
+    <small>Dairy Juice &amp; Coffee House</small>
+  </span>
+</a>
+    <nav class="menu" id="menu">
+      <a href="#home" class="active">Home</a>
+      <a href="#story">About Us</a>
+      <a href="#products">Products</a>
+    
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-solid menu-wa" data-wa href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </nav>
+    <a class="btn btn-solid nav-wa" data-wa href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-bg" data-img="hero"></div>
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow">Pure • Fresh • Natural</p>
+      <h1>Goodness from Our Farm to Your Table</h1>
+      <p class="lead">Fresh milk, creamy curd, soft paneer, refreshing juices, rich coffee and delightful ice cream — all in one place.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn btn-solid">Explore Our Products</a>
+        <a href="#contact" class="btn btn-ghost">Visit Our Shop</a>
+      </div>
+      <ul class="trust">
+        <li><i class="ic">🌿</i>100% Natural<br>Ingredients</li>
+        <li><i class="ic">🛡️</i>Hygienically<br>Processed</li>
+        <li><i class="ic">♡</i>Local Family<br>Business</li>
+      </ul>
+    </div>
+    <span class="hero-script">Fresh Everyday</span>
+  </div>
+</section>
+
+<section class="wrap cats" id="cats"></section>
+
+<section class="wrap story" id="story">
+  <div class="story-img reveal"><img data-img="shop" alt="Aryal Dairy shop front"></div>
+  <div class="story-txt reveal">
+    <p class="script">Our Story</p>
+    <h2>More Than Just a Shop<br>It’s Our Family’s Dream</h2>
+    <p>Aryal Dairy Juice &amp; Coffee House started with a simple belief — that everyone deserves fresh, pure and healthy food, every day.</p>
+    <p>What began as a small family effort has now grown into a trusted local dairy and beverage shop, offering a wide range of milk products, refreshing juices, aromatic coffee and delicious ice cream.</p>
+    <a href="#gallery" class="btn btn-solid">Learn More</a>
+  </div>
+  <ul class="story-pts reveal">
+    <li><i class="ic">🌿</i><b>Fresh Products</b>Every Day</li>
+    <li><i class="ic">🏘️</i><b>Local &amp; Trusted</b>by Our Community</li>
+    <li><i class="ic">☆</i><b>Quality You</b>Can Taste</li>
+  </ul>
+</section>
+
+<section class="wrap featured" id="products">
+  <div class="sec-head">
+    <div><p class="tag">Featured Products</p><h2>Our Fresh Selection</h2></div>
+    <a href="#contact" class="viewall">View All Products →</a>
+  </div>
+  <div class="grid" id="productGrid"></div>
+</section>
+
+<section class="why" id="gallery">
+  <div class="wrap why-in">
+    <p class="script big">Why Choose Aryal Dairy?</p>
+    <ul class="why-list">
+      <li><i class="ic">🌿</i>Fresh &amp; Natural<br>Ingredients</li>
+      <li><i class="ic">🛡️</i>Hygienic<br>Processing</li>
+      <li><i class="ic">♡</i>Wide Variety<br>of Products</li>
+      <li><i class="ic">🙂</i>Friendly<br>Service</li>
+      <li><i class="ic">☆</i>Trusted<br>by Locals</li>
+    </ul>
+  </div>
+</section>
+
+<section class="wrap reviews">
+  <h2>What Our Customers Say</h2>
+  <div class="rv-row">
+    <button class="arrow" id="prev" aria-label="Previous">‹</button>
+    <div class="rv-track" id="rvTrack"></div>
+    <button class="arrow" id="next" aria-label="Next">›</button>
+  </div>
+  <div class="dots" id="dots"></div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-in">
+    <div>
+      <h2>Get in Touch</h2>
+      <p>Visit our shop, call us or send us a message. We’re always happy to hear from you!</p>
+      <a class="btn btn-ghost-light" data-wa href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+    <ul class="info">
+      <li><i class="ic">📞</i><span data-phone></span><small>(Call / WhatsApp)</small></li>
+      <li><i class="ic">📍</i><span data-address></span></li>
+      <li><i class="ic">🕖</i><span data-hours></span></li>
+    </ul>
+    <a class="map" data-map href="#" target="_blank" rel="noopener"><em>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d353.3503717252698!2d82.52248730204536!3d27.871839704700378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39979900211b4143%3A0x6b27ea65d7906044!2sAryal%20Dairy%20Juice%20%26%20Coffee%20House!5e1!3m2!1sen!2snp!4v1791539880342!5m2!1sen!2snp"loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></em><b class="btn btn-solid">Get Directions</b></a>
+      <span class="script light">Good Food. Healthy Life</span>
+    </div>
+</section>
+
+
+<footer class="foot">
+  <div class="wrap foot-in">
+
+    <!-- ARYAL LOGO -->
+    <a href="#home" class="logo light">
+      <img
+        src="images/logo.png"
+        alt="Aryal Dairy Logo"
+        class="logo-img"
+      >
+
+      <span class="logo-t">
+        ARYAL
+        <small>Dairy Juice &amp; Coffee House</small>
+      </span>
+    </a>
+
+    <!-- FOOTER NAVIGATION -->
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#story">About Us</a>
+      <a href="#products">Products</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- SOCIAL LINKS -->
+    <div class="social">
+      <a href="#" aria-label="Facebook">f</a>
+      <a href="#" aria-label="Instagram">◎</a>
+      <a data-wa href="#"
+         aria-label="WhatsApp"
+         target="_blank"
+         rel="noopener">✆</a>
+    </div>
+
+    <!-- COPYRIGHT -->
+    <p class="copy">
+      © <span id="yr">2026</span>
+      Aryal Dairy Juice &amp; Coffee House.
+      All rights reserved.
+    </p>
+
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
